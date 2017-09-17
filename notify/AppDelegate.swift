@@ -1,20 +1,9 @@
-//
-//  AppDelegate.swift
-//  notify
-//
-//  Created by hiroshi on 2017/09/04.
-//
-//
-
 import Cocoa
 
-@NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
-
-
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
+        debugPrint("hello")
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
